@@ -1,0 +1,10 @@
+#!/usr/bin/make -f
+
+UPSTREAM_GIT := https://github.com/DLR-RM/stable-baselines3.git
+include /usr/share/openstack-pkg-tools/pkgos.make
+
+%:
+	dh $@ --buildsystem=pybuild --with python3
+
+
+

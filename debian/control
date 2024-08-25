@@ -1,0 +1,29 @@
+Source: python-stable-baselines3
+Section: python
+Priority: optional
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders:
+ Thomas Goirand <zigo@debian.org>,
+Build-Depends:
+ debhelper-compat (= 11),
+ dh-python,
+ openstack-pkg-tools,
+ pybuild-plugin-pyproject,
+ python3-all,
+ python3-setuptools,
+Build-Depends-Indep:
+ python3-pytest,
+Standards-Version: 4.6.1
+Vcs-Browser: https://salsa.debian.org/python-team/packages/python-stable-baselines3
+Vcs-Git: https://salsa.debian.org/python-team/packages/python-stable-baselines3.git
+Homepage: https://github.com/DLR-RM/stable-baselines3
+
+Package: python3-stable-baselines3
+Architecture: all
+Depends:
+ ${misc:Depends},
+ ${python3:Depends},
+Description: Pytorch version of Stable Baselines, implementations of reinforcement learning algorithms. - Python 3.x
+ - REPLACE ME -
+ .
+ This package contains the Python 3.x module.

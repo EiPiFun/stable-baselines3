@@ -1,0 +1,5 @@
+python-stable-baselines3 (2.3.2-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #XXXXXX)
+
+ -- Dong Xu <me@eipi.fun>  Sun, 25 Aug 2024 21:25:56 +0800
